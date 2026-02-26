@@ -2,29 +2,50 @@
 context_bundle 조립기
 
 목표:
-- (5) user_behavior(processed) + (6~8) game_bundles(processed)를 합쳐
-  `docs/context_aware.md`의 ContextBundle 형태에 가까운 JSON을 만든다.
+- (1) SituationalContext   : situational.py
+- (2) SentimentContext     : sentiment.py   (선택, LLM)
+- (4) PlayStyleContext     : play_style.py
+- (5) BehaviorContext      : behavior_activity.py (processed)
+- (6~8) GameContext        : game_signals.py → quality_trust/live/discount (processed)
+를 합쳐 docs/03-context_aware.md 의 ContextBundle 형태에 가까운 JSON을 만든다.
 
 주의:
-- 이 모듈은 "조립(merge)"에 집중한다. (6~8) 번들 생성/갱신(TTL)은 별도 스크립트가 담당.
+- 이 모듈은 "조립(merge)"에 집중한다.
+- (6~8) 번들 생성/갱신(TTL)은 별도 스크립트(scripts/build_game_signals_bundle.py)가 담당.
+- (1, 4) Situational / PlayStyle 은 interim user_games table을 직접 읽어 계산한다.
+- (2) Sentiment 는 UI 입력(user_reviews, mood_tag)이 필요하므로 기본 OFF.
 """
 
 from __future__ import annotations
 
 import json
+import os
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 from src.game_recommendation.context_aware.behavior_activity import (
     UserBehaviorPaths,
+    load_interim_user_games_table,
     processed_behavior_context_path,
 )
 from src.game_recommendation.context_aware.game_signals import (
     GameSignalsPaths,
     processed_bundle_path,
 )
+from src.game_recommendation.context_aware.situational import compute_situational_context
+from src.game_recommendation.context_aware.play_style import compute_play_style_context
+from src.game_recommendation.context_aware.sentiment import compute_sentiment_context
+
+
+def _data_root() -> Path:
+    """
+    데이터 루트 디렉토리.
+    - 기본: ./data
+    - 오버라이드: DATA_DIR 환경변수
+    """
+    return Path(os.environ.get("DATA_DIR", "data"))
 
 
 def _read_json(path: Path) -> Any:
@@ -55,9 +76,9 @@ class ContextBundlePaths:
     서로 다른 모듈의 paths를 한 번에 전달하기 위한 wrapper.
     """
 
-    user: UserBehaviorPaths = UserBehaviorPaths()
-    game: GameSignalsPaths = GameSignalsPaths()
-    processed_dir: Path = Path("data/processed")
+    user: UserBehaviorPaths = field(default_factory=UserBehaviorPaths)
+    game: GameSignalsPaths = field(default_factory=GameSignalsPaths)
+    processed_dir: Path = field(default_factory=lambda: _data_root() / "processed")
 
 
 def context_bundle_output_path(
@@ -86,6 +107,19 @@ def load_game_bundle_processed(
     return _read_json(p)
 
 
+def _load_owned_rows(steam_id: str, *, paths: ContextBundlePaths) -> list[dict[str, Any]]:
+    """
+    interim user_games table 에서 owned_rows를 꺼낸다.
+    파일이 없으면 빈 리스트 반환(graceful degradation).
+    """
+    try:
+        table = load_interim_user_games_table(steam_id, paths=paths.user)
+        rows = table.get("rows", []) if isinstance(table, dict) else []
+        return rows if isinstance(rows, list) else []
+    except FileNotFoundError:
+        return []
+
+
 def assemble_context_bundle(
     *,
     steam_id: str,
@@ -95,21 +129,88 @@ def assemble_context_bundle(
     lang: str = "en",
     now_ts: int | None = None,
     include_game_bundle_meta: bool = True,
+    # (1) Situational
+    available_mins: int = 60,
+    include_situational: bool = True,
+    # (2) Sentiment — 기본 OFF (LLM 호출 필요)
+    mood_tag: str = "",
+    user_reviews: list[str] | None = None,
+    include_sentiment: bool = False,
+    openai_client: Any = None,
+    openai_api_key: str | None = None,
+    # (4) Play Style
+    include_play_style: bool = True,
 ) -> dict[str, Any]:
     """
-    ContextBundle을 조립한다.
+    ContextBundle 조립.
 
-    games는 JSON 특성상 키가 문자열이므로 appid를 str로 사용한다.
+    유저 컨텍스트 섹션:
+      - situational  (1): available_mins/현재시각 + interim user_games rows
+      - sentiment    (2): user_reviews + mood_tag → LLM (include_sentiment=True 시 활성)
+      - play_style   (4): interim user_games rows
+      - behavior     (5): data/processed/user_behavior/{steam_id}.json
+
+    게임 컨텍스트 섹션 (6~8):
+      - quality_trust, live, discount: data/processed/game_bundles/{appid}...json
     """
     now_ts = int(now_ts or time.time())
 
-    behavior_payload = load_behavior_processed(steam_id, paths=paths)
-    behavior_ctx = (
-        behavior_payload.get("behavior", {})
-        if isinstance(behavior_payload, dict)
-        else {}
-    )
+    # (5) BehaviorContext (processed)
+    try:
+        behavior_payload = load_behavior_processed(steam_id, paths=paths)
+        behavior_ctx = (
+            behavior_payload.get("behavior", {})
+            if isinstance(behavior_payload, dict)
+            else {}
+        )
+    except FileNotFoundError:
+        behavior_ctx = {}
 
+    # (1, 4) interim rows 로드 (Situational + PlayStyle 공용)
+    owned_rows = _load_owned_rows(steam_id, paths=paths)
+
+    # (1) SituationalContext
+    situational_ctx: dict[str, Any] | None = None
+    if include_situational:
+        situational_ctx = compute_situational_context(
+            owned_rows,
+            available_mins=available_mins,
+            now_ts=now_ts,
+        )
+
+    # (4) PlayStyleContext
+    play_style_ctx: dict[str, Any] | None = None
+    if include_play_style:
+        play_style_ctx = compute_play_style_context(owned_rows)
+
+    # (2) SentimentContext (선택, LLM)
+    sentiment_ctx: dict[str, Any] | None = None
+    if include_sentiment:
+        sentiment_ctx = compute_sentiment_context(
+            user_reviews or [],
+            mood_tag=mood_tag,
+            openai_client=openai_client,
+            openai_api_key=openai_api_key,
+        )
+    elif mood_tag:
+        # LLM 없이 mood_tag만 기록 (비용 절감, 최소 컨텍스트 유지)
+        sentiment_ctx = {
+            "weighted_aspect_preference": None,
+            "churn_triggers": [],
+            "current_mood_tag": mood_tag,
+        }
+
+    # user 섹션 조립
+    user_section: dict[str, Any] = {}
+    if situational_ctx is not None:
+        user_section["situational"] = situational_ctx
+    if sentiment_ctx is not None:
+        user_section["sentiment"] = sentiment_ctx
+    if play_style_ctx is not None:
+        user_section["play_style"] = play_style_ctx
+    user_section["behavior"] = behavior_ctx
+
+    # (6~8) 게임 컨텍스트 섹션 조립
     missing_appids: list[int] = []
     stale_appids: list[int] = []
     games_out: dict[str, Any] = {}
@@ -131,7 +232,6 @@ def assemble_context_bundle(
             stale_appids.append(appid)
 
         entry: dict[str, Any] = {
-            # docs/context_aware.md GameContext에 맞춰 key를 평평하게 둔다.
             "quality_trust": contexts.get("quality_trust"),
             "live": contexts.get("live"),
             "discount": contexts.get("discount"),
@@ -150,10 +250,8 @@ def assemble_context_bundle(
             "missing_appids": missing_appids,
             "stale_appids": stale_appids,
         },
-        "user_id": steam_id,  # docs/context_aware.md의 user_id 관례를 따름
-        "user": {
-            "behavior": behavior_ctx,
-        },
+        "user_id": steam_id,
+        "user": user_section,
         "games": games_out,
     }
 
@@ -177,7 +275,12 @@ def validate_context_bundle(bundle: dict[str, Any]) -> list[str]:
         issues.append(f"stale_appids(expired bundles): {stale}")
 
     user = bundle.get("user", {})
-    behavior = user.get("behavior") if isinstance(user, dict) else None
+    if not isinstance(user, dict):
+        issues.append("user section missing or not a dict")
+        return issues
+
+    # (5) BehaviorContext 검증
+    behavior = user.get("behavior")
     if not isinstance(behavior, dict):
         issues.append("user.behavior missing or not a dict")
     else:
@@ -185,6 +288,30 @@ def validate_context_bundle(bundle: dict[str, Any]) -> list[str]:
         if st not in ("active", "cooling_off", "dormant"):
             issues.append(f"behavior.activity_state invalid: {st!r}")
 
+    # (1) SituationalContext 검증 (있으면)
+    situational = user.get("situational")
+    if situational is not None:
+        if not isinstance(situational, dict):
+            issues.append("user.situational is not a dict")
+        else:
+            tw = situational.get("available_time_window")
+            if tw not in ("30m", "60m", "120m_plus"):
+                issues.append(f"situational.available_time_window invalid: {tw!r}")
+
+    # (4) PlayStyleContext 검증 (있으면)
+    play_style = user.get("play_style")
+    if play_style is not None:
+        if not isinstance(play_style, dict):
+            issues.append("user.play_style is not a dict")
+        else:
+            ps = play_style.get("play_style")
+            if ps not in ("Focused", "Diverse"):
+                issues.append(f"play_style.play_style invalid: {ps!r}")
+            fs = play_style.get("focus_score")
+            if isinstance(fs, (int, float)) and not (0.0 <= float(fs) <= 1.0):
+                issues.append(f"play_style.focus_score out of [0,1]: {fs}")
+
+    # (6~8) 게임 컨텍스트 검증
     games = bundle.get("games", {})
     if not isinstance(games, dict):
         issues.append("games missing or not a dict")
@@ -197,7 +324,7 @@ def validate_context_bundle(bundle: dict[str, Any]) -> list[str]:
             issues.append(f"games[{appid_str}] not a dict")
             continue
 
-        # TTL(선택): _bundle_meta가 있으면 검사
+        # TTL 검사 (_bundle_meta가 있으면)
         bm = gctx.get("_bundle_meta")
         if isinstance(bm, dict):
             expires_at = _safe_int(bm.get("expires_at"), 0)
@@ -230,9 +357,13 @@ def validate_context_bundle(bundle: dict[str, Any]) -> list[str]:
 
 
 def write_context_bundle(
-    bundle: dict[str, Any], *, steam_id: str, paths: ContextBundlePaths, cc: str = "us", lang: str = "en"
+    bundle: dict[str, Any],
+    *,
+    steam_id: str,
+    paths: ContextBundlePaths,
+    cc: str = "us",
+    lang: str = "en",
 ) -> Path:
     out = context_bundle_output_path(steam_id, paths=paths, cc=cc, lang=lang)
     _atomic_write_json(out, bundle)
     return out
-
