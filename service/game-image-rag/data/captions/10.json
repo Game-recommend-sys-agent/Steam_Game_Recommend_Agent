@@ -1,0 +1,45 @@
+{
+  "image_caption": "Two characters in tactical gear hold weapons against a yellow background with the text 'Counter-Strike'.",
+  "visual_keywords": [
+    "tactical gear",
+    "weapons",
+    "yellow background",
+    "text",
+    "masks",
+    "gloves",
+    "helmets",
+    "dark clothing",
+    "black",
+    "red",
+    "blue",
+    "action pose",
+    "digital illustration"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most prominently positioned in the foreground",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "masked face",
+      "body_traits": "holding gun",
+      "clothing_style": "tactical gear",
+      "visual_color": "black",
+      "props_or_accessories": "helmet"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "distinctive position and visibility",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "masked face",
+        "body_traits": "holding gun",
+        "clothing_style": "tactical gear",
+        "visual_color": "black",
+        "props_or_accessories": "helmet with red accent"
+      }
+    }
+  ],
+  "appid": 10
+}

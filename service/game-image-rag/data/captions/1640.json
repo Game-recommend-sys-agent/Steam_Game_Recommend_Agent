@@ -1,0 +1,49 @@
+{
+  "image_caption": "Two distinct characters displayed prominently against a split background of red and blue.",
+  "visual_keywords": [
+    "fantasy",
+    "split background",
+    "red",
+    "blue",
+    "creature",
+    "elf",
+    "armor",
+    "sharp teeth",
+    "pointed ears",
+    "war paint",
+    "muscular build",
+    "decorative armor",
+    "tattoos"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "Most visually emphasized on the right.",
+    "visual_cues": {
+      "species_traits": "elf",
+      "face_features": "pointed ears, war paint",
+      "facial_expression": "serious",
+      "body_traits": "muscular build",
+      "hair_traits": "braided",
+      "clothing_style": "decorative armor",
+      "visual_color": "gray and purple",
+      "props_or_accessories": "tattoos"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "Visually distinctive on the left.",
+      "visual_cues": {
+        "species_traits": "creature",
+        "face_features": "sharp teeth",
+        "facial_expression": "aggressive",
+        "body_traits": "muscular build",
+        "hair_traits": "none",
+        "clothing_style": "minimal",
+        "visual_color": "green and black",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 1640
+}

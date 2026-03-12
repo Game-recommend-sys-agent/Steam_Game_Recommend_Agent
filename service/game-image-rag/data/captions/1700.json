@@ -1,0 +1,29 @@
+{
+  "image_caption": "A person stands in a dimly lit, ancient stone corridor holding a large sword, with mist and skulls on the ground.",
+  "visual_keywords": [
+    "ancient stone corridor",
+    "dim lighting",
+    "large sword",
+    "mist",
+    "skulls",
+    "armor",
+    "shadow",
+    "standing figure"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized and central",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "obscured in shadow",
+      "facial_expression": "not visible",
+      "body_traits": "standing posture",
+      "hair_traits": "long hair",
+      "clothing_style": "armor",
+      "visual_color": "dark tones",
+      "props_or_accessories": "large sword"
+    }
+  },
+  "salient_characters": [],
+  "appid": 1700
+}

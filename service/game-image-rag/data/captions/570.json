@@ -1,0 +1,65 @@
+{
+  "image_caption": "A group of fantasy characters are gathered with a backdrop of a mystical landscape.",
+  "visual_keywords": [
+    "fantasy",
+    "group",
+    "mystical",
+    "armor",
+    "weapons",
+    "animal companion",
+    "bright colors",
+    "variety of species",
+    "helmets",
+    "capes",
+    "lights",
+    "warrior",
+    "magic",
+    "swords",
+    "shields"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually centered and emphasized character",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "determined expression",
+      "facial_expression": "serious",
+      "body_traits": "muscular build",
+      "hair_traits": "dark",
+      "clothing_style": "ornate armor",
+      "visual_color": "gold and red",
+      "props_or_accessories": "helmet with horns"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "notably distinctive due to animal companion",
+      "visual_cues": {
+        "species_traits": "human with animal companion",
+        "face_features": "sharp features",
+        "facial_expression": "stoic",
+        "body_traits": "slim",
+        "hair_traits": "long, blonde",
+        "clothing_style": "warrior armor",
+        "visual_color": "silver and blue",
+        "props_or_accessories": "large white wolf"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "distinctive due to unique headgear",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "obscured by mask",
+        "facial_expression": "masked",
+        "body_traits": "athletic",
+        "hair_traits": "none visible",
+        "clothing_style": "battle armor",
+        "visual_color": "red and gold",
+        "props_or_accessories": "mask and glowing sword"
+      }
+    }
+  ],
+  "appid": 570
+}

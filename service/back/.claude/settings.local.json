@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import zipfile; z=zipfile.ZipFile\\(''game_recommendation.zip''\\); [print\\(n\\) for n in z.namelist\\(\\)]\")",
+      "Bash(python -c \":*)"
+    ]
+  }
+}

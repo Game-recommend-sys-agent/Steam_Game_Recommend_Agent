@@ -1,0 +1,94 @@
+{
+  "image_caption": "A red-toned poster featuring a central figure surrounded by grotesque creatures and a bold title.",
+  "visual_keywords": [
+    "red tone",
+    "central figure",
+    "grotesque creatures",
+    "bold title",
+    "hat",
+    "weapon",
+    "monsters",
+    "dark atmosphere",
+    "graphic art style"
+  ],
+  "primary_character": {
+    "character_id": "central_figure",
+    "salience_reason": "most visually emphasized at center",
+    "visual_cues": {
+      "species_traits": [
+        "human"
+      ],
+      "face_features": [
+        "marked features"
+      ],
+      "facial_expression": [
+        "determined"
+      ],
+      "body_traits": [
+        "upper torso visible"
+      ],
+      "hair_traits": [
+        "hat covering"
+      ],
+      "clothing_style": [
+        "uniform style"
+      ],
+      "visual_color": [
+        "shadowed"
+      ],
+      "props_or_accessories": [
+        "hat",
+        "weapon"
+      ]
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "creature_1",
+      "salience_reason": "visually distinctive due to grotesque appearance",
+      "visual_cues": {
+        "species_traits": [
+          "creature"
+        ],
+        "face_features": [
+          "distorted features",
+          "snarl"
+        ],
+        "facial_expression": [
+          "aggressive"
+        ],
+        "body_traits": [
+          "muscular"
+        ],
+        "visual_color": [
+          "red"
+        ],
+        "props_or_accessories": []
+      }
+    },
+    {
+      "character_id": "creature_2",
+      "salience_reason": "noticeably distinct among creatures",
+      "visual_cues": {
+        "species_traits": [
+          "creature"
+        ],
+        "face_features": [
+          "humanoid face",
+          "open mouth"
+        ],
+        "facial_expression": [
+          "menacing"
+        ],
+        "body_traits": [
+          "bulky"
+        ],
+        "visual_color": [
+          "red"
+        ],
+        "props_or_accessories": []
+      }
+    }
+  ],
+  "appid": 1313
+}

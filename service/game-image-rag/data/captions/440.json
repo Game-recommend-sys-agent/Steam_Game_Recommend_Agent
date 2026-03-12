@@ -1,0 +1,62 @@
+{
+  "image_caption": "A group of nine distinct characters, each with unique outfits and accessories, stand underneath the 'Team Fortress 2' title.",
+  "visual_keywords": [
+    "group",
+    "characters",
+    "unique outfits",
+    "accessories",
+    "weapons",
+    "red clothing",
+    "hats",
+    "helmets",
+    "tools",
+    "background text",
+    "team",
+    "uniform"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "stands at the front right, larger and more prominently displayed than others",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "square jaw, bald head",
+      "facial_expression": "neutral",
+      "body_traits": "muscular",
+      "hair_traits": "bald",
+      "clothing_style": "sleeveless",
+      "visual_color": "red and black",
+      "props_or_accessories": "ammunition belts, large weapon"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "wears a construction helmet and stands near center",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "beard",
+        "facial_expression": "neutral",
+        "body_traits": "sturdy build",
+        "hair_traits": "hidden by helmet",
+        "clothing_style": "utility harness",
+        "visual_color": "orange and yellow",
+        "props_or_accessories": "tool belt"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "wears a gas mask and stands slightly to the right",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "gas mask",
+        "facial_expression": "concealed",
+        "body_traits": "average build",
+        "hair_traits": "concealed",
+        "clothing_style": "hazard suit",
+        "visual_color": "black and red",
+        "props_or_accessories": "backpack, gas canister"
+      }
+    }
+  ],
+  "appid": 440
+}

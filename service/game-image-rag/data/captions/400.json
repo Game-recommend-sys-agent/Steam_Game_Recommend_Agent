@@ -1,0 +1,34 @@
+{
+  "image_caption": "The poster features a large blue portal ring with the word 'PORTAL' across the image against a blue background with faint depictions of stick figure graphics.",
+  "visual_keywords": [
+    "blue portal ring",
+    "stick figure graphics",
+    "word 'PORTAL'",
+    "blue background",
+    "minimalist design",
+    "lettering",
+    "graphic symbols",
+    "geometric shapes"
+  ],
+  "primary_character": {
+    "character_id": "portal_ring",
+    "salience_reason": "most visually emphasized and central",
+    "visual_cues": {
+      "props_or_accessories": "blue portal ring",
+      "visual_color": "blue"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "stick_figure",
+      "salience_reason": "visually distinctive graphics in background",
+      "visual_cues": {
+        "species_traits": "stick figure",
+        "props_or_accessories": "portal-related symbols",
+        "visual_color": "black",
+        "body_traits": "simplified form"
+      }
+    }
+  ],
+  "appid": 400
+}

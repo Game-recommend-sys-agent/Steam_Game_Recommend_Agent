@@ -1,0 +1,24 @@
+{
+  "image_caption": "A ship sails through the ocean at sunset, with dramatic lighting and a large funnel emitting smoke.",
+  "visual_keywords": [
+    "ship",
+    "ocean",
+    "sunset",
+    "dramatic lighting",
+    "funnel",
+    "smoke",
+    "sails"
+  ],
+  "primary_character": {
+    "character_id": "ship",
+    "salience_reason": "largest and most prominent subject",
+    "visual_cues": {
+      "species_traits": "nautical vessel",
+      "body_traits": "large, sleek structure",
+      "visual_color": "black, white, orange",
+      "props_or_accessories": "smoke, sails"
+    }
+  },
+  "salient_characters": [],
+  "appid": 2400
+}

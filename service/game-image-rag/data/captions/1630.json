@@ -1,0 +1,46 @@
+{
+  "image_caption": "The poster features two sinister-looking elf-like characters with dark and eerie surroundings.",
+  "visual_keywords": [
+    "elves",
+    "sinister",
+    "dark",
+    "eerie",
+    "long ears",
+    "pale skin",
+    "red eyes",
+    "armor",
+    "sharp features",
+    "tree background"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized and central position",
+    "visual_cues": {
+      "species_traits": "elf-like",
+      "face_features": "sharp",
+      "facial_expression": "sinister",
+      "body_traits": "tall and slender",
+      "hair_traits": "long black hair",
+      "clothing_style": "dark armor",
+      "visual_color": "pale skin, red eyes",
+      "props_or_accessories": "armor with symbols"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "prominent position and distinctive features",
+      "visual_cues": {
+        "species_traits": "elf-like",
+        "face_features": "sharp and demonic",
+        "facial_expression": "menacing",
+        "body_traits": "tall and muscular",
+        "hair_traits": "tall pointed hair",
+        "clothing_style": "dark armor",
+        "visual_color": "pale skin",
+        "props_or_accessories": "armor"
+      }
+    }
+  ],
+  "appid": 1630
+}

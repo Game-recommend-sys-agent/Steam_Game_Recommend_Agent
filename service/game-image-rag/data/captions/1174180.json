@@ -1,0 +1,29 @@
+{
+  "image_caption": "A rugged bearded man in western attire points a revolver amidst a red and yellow backdrop with silhouetted riders.",
+  "visual_keywords": [
+    "bearded",
+    "revolver",
+    "western attire",
+    "red background",
+    "yellow circle",
+    "silhouetted riders",
+    "black hat",
+    "ammo belt"
+  ],
+  "primary_character": {
+    "character_id": "primary_character_1",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": null,
+      "face_features": "bearded",
+      "facial_expression": null,
+      "body_traits": "rugged",
+      "hair_traits": null,
+      "clothing_style": "western attire",
+      "visual_color": "black and red",
+      "props_or_accessories": "revolver, black hat, ammo belt"
+    }
+  },
+  "salient_characters": [],
+  "appid": 1174180
+}

@@ -1,0 +1,32 @@
+{
+  "image_caption": "A poster featuring a menacing orc-like character in armor with the title 'Dark Messiah Might and Magic'.",
+  "visual_keywords": [
+    "orc",
+    "armor",
+    "helmet",
+    "fangs",
+    "muscular",
+    "dark background",
+    "weapon",
+    "title text",
+    "gritty",
+    "fantasy",
+    "aggressive"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized in the poster",
+    "visual_cues": {
+      "species_traits": "orc-like",
+      "face_features": "large fangs, pointy ears",
+      "facial_expression": "menacing",
+      "body_traits": "muscular build",
+      "hair_traits": "none visible",
+      "clothing_style": "armor with helmet",
+      "visual_color": "green skin, grey armor",
+      "props_or_accessories": "armor, helmet"
+    }
+  },
+  "salient_characters": [],
+  "appid": 2100
+}

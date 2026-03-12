@@ -1,0 +1,29 @@
+{
+  "image_caption": "A futuristic armored character holding a dual-barreled weapon in front of a red backdrop with the text 'Deathmatch Classic'.",
+  "visual_keywords": [
+    "futuristic armor",
+    "dual-barreled weapon",
+    "red backdrop",
+    "helmet",
+    "glowing edges",
+    "metallic suit",
+    "text 'Deathmatch Classic'",
+    "technology theme"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "most visually emphasized and prominently placed",
+    "visual_cues": {
+      "species_traits": "unknown",
+      "face_features": "helmet conceals face",
+      "facial_expression": "not visible",
+      "body_traits": "angular, armored",
+      "hair_traits": "not visible",
+      "clothing_style": "futuristic, metallic",
+      "visual_color": "red, metallic, glowing edges",
+      "props_or_accessories": "dual-barreled weapon"
+    }
+  },
+  "salient_characters": [],
+  "appid": 40
+}

@@ -1,0 +1,41 @@
+{
+  "image_caption": "A character in a futuristic suit and glasses is prominently featured against an orange, weathered background with text and symbols.",
+  "visual_keywords": [
+    "futuristic suit",
+    "glasses",
+    "orange background",
+    "weathered texture",
+    "text",
+    "symbols",
+    "brown hair",
+    "beard",
+    "stern expression"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "most visually emphasized",
+    "visual_cues": {
+      "species_traits": [],
+      "face_features": [
+        "glasses",
+        "beard"
+      ],
+      "facial_expression": [
+        "stern expression"
+      ],
+      "body_traits": [],
+      "hair_traits": [
+        "brown hair"
+      ],
+      "clothing_style": [
+        "futuristic suit"
+      ],
+      "visual_color": [],
+      "props_or_accessories": [
+        "glasses"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 70
+}

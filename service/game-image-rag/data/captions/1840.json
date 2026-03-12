@@ -1,0 +1,21 @@
+{
+  "image_caption": "The poster shows a stylized film reel icon next to the words 'source filmmaker' on a dark background.",
+  "visual_keywords": [
+    "film reel icon",
+    "text",
+    "dark background",
+    "stylized design",
+    "circular shapes",
+    "gold color"
+  ],
+  "primary_character": {
+    "character_id": "stylized_film_reel",
+    "salience_reason": "most visually emphasized element",
+    "visual_cues": {
+      "props_or_accessories": "film reel icon",
+      "visual_color": "gold color"
+    }
+  },
+  "salient_characters": [],
+  "appid": 1840
+}

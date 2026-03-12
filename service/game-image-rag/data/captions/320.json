@@ -1,0 +1,30 @@
+{
+  "image_caption": "A figure in a combat suit using a gravity gun in an industrial setting.",
+  "visual_keywords": [
+    "combat suit",
+    "gravity gun",
+    "industrial setting",
+    "greenish lighting",
+    "action pose",
+    "dark pants",
+    "utility belt",
+    "facial shadow",
+    "gloves",
+    "orange glow"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "facial shadow",
+      "body_traits": "action pose",
+      "hair_traits": "dark headwear",
+      "clothing_style": "combat suit",
+      "visual_color": "dark colors",
+      "props_or_accessories": "gravity gun, utility belt, gloves"
+    }
+  },
+  "salient_characters": [],
+  "appid": 320
+}

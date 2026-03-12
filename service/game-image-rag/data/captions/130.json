@@ -1,0 +1,28 @@
+{
+  "image_caption": "A poster featuring a man in a uniform with a helmet, holding a gun, and a large Lambda symbol in the background.",
+  "visual_keywords": [
+    "man",
+    "uniform",
+    "helmet",
+    "gun",
+    "Lambda symbol",
+    "blue background",
+    "security badge",
+    "serious expression"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": "human",
+      "facial_expression": "serious expression",
+      "body_traits": "muscular build",
+      "hair_traits": "not visible",
+      "clothing_style": "uniform with armor",
+      "visual_color": "blue",
+      "props_or_accessories": "gun, helmet, security badge"
+    }
+  },
+  "salient_characters": [],
+  "appid": 130
+}

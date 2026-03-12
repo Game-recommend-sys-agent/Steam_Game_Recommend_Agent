@@ -1,0 +1,49 @@
+{
+  "image_caption": "The poster features a green pixelated figure above the title 'darwinia' with additional similar figures scattered and a dark abstract background.",
+  "visual_keywords": [
+    "green",
+    "pixelated",
+    "figure",
+    "title 'darwinia'",
+    "dark background",
+    "abstract",
+    "anniversary edition",
+    "cube",
+    "contrast"
+  ],
+  "primary_character": {
+    "character_id": "green_pixelated_figure",
+    "salience_reason": "most visually emphasized near the title",
+    "visual_cues": {
+      "species_traits": [
+        "pixelated",
+        "simplistic"
+      ],
+      "body_traits": [
+        "blocky"
+      ],
+      "visual_color": [
+        "green"
+      ]
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "scattered_figures",
+      "salience_reason": "additional similar but smaller figures",
+      "visual_cues": {
+        "species_traits": [
+          "pixelated",
+          "simplistic"
+        ],
+        "body_traits": [
+          "blocky"
+        ],
+        "visual_color": [
+          "green"
+        ]
+      }
+    }
+  ],
+  "appid": 1500
+}

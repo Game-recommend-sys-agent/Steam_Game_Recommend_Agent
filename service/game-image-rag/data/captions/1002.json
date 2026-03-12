@@ -1,0 +1,27 @@
+{
+  "image_caption": "A stylized character striking a pose with bold text in the background.",
+  "visual_keywords": [
+    "stylized",
+    "character",
+    "bold text",
+    "action pose",
+    "sunburst background",
+    "martial arts",
+    "red text",
+    "brown and black clothing"
+  ],
+  "primary_character": {
+    "character_id": "Character1",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "face_features": "exaggerated facial features",
+      "facial_expression": "determined expression",
+      "hair_traits": "shaved sides, top knot",
+      "clothing_style": "martial arts attire",
+      "visual_color": "brown, black",
+      "props_or_accessories": "none observed"
+    }
+  },
+  "salient_characters": [],
+  "appid": 1002
+}

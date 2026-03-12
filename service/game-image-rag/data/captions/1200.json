@@ -1,0 +1,53 @@
+{
+  "image_caption": "Video game poster showing soldiers in combat in a war-torn city with a red sky.",
+  "visual_keywords": [
+    "soldiers",
+    "combat",
+    "war-torn city",
+    "red sky",
+    "guns",
+    "helmets",
+    "uniforms",
+    "barricades",
+    "stone bridge",
+    "smoke",
+    "explosions",
+    "dark shadows"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized in the foreground, aiming a rifle",
+    "visual_cues": {
+      "species_traits": "human",
+      "body_traits": "holding rifle",
+      "clothing_style": "helmet and military uniform",
+      "visual_color": "dark green and brown",
+      "props_or_accessories": "rifle"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "in focus, positioned prominently on the bridge",
+      "visual_cues": {
+        "species_traits": "human",
+        "body_traits": "crouching",
+        "clothing_style": "helmet and military uniform",
+        "visual_color": "dark green and brown",
+        "props_or_accessories": "rifle"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "in action and clearly visible on the left deploying strategy",
+      "visual_cues": {
+        "species_traits": "human",
+        "body_traits": "in motion",
+        "clothing_style": "helmet and military uniform",
+        "visual_color": "dark green and brown",
+        "props_or_accessories": "gun"
+      }
+    }
+  ],
+  "appid": 1200
+}

@@ -1,0 +1,25 @@
+{
+  "image_caption": "The image features a fierce creature with sharp teeth and textured skin prominently displayed next to the title 'Dark Messiah Might and Magic Multiplayer'.",
+  "visual_keywords": [
+    "creature",
+    "sharp teeth",
+    "textured skin",
+    "green scales",
+    "open mouth",
+    "dark background",
+    "title text"
+  ],
+  "primary_character": {
+    "character_id": "creature",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": "reptilian",
+      "face_features": "sharp teeth",
+      "facial_expression": "aggressive",
+      "body_traits": "textured skin",
+      "visual_color": "green scales"
+    }
+  },
+  "salient_characters": [],
+  "appid": 2130
+}

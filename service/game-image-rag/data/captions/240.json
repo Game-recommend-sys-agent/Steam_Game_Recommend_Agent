@@ -1,0 +1,53 @@
+{
+  "image_caption": "A soldier in tactical gear holding a rifle is prominently displayed on the poster with the game title overlay.",
+  "visual_keywords": [
+    "soldier",
+    "tactical gear",
+    "rifle",
+    "helmet",
+    "goggles",
+    "black mask",
+    "combat uniform",
+    "blue and black colors",
+    "weapon",
+    "protective clothing"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "Most visually emphasized with detailed equipment and prominent position",
+    "visual_cues": {
+      "species_traits": [
+        "human"
+      ],
+      "face_features": [
+        "goggles",
+        "black mask covering lower face"
+      ],
+      "facial_expression": [
+        "obscured"
+      ],
+      "body_traits": [
+        "holding weapon",
+        "wearing tactical gear"
+      ],
+      "hair_traits": [
+        "covered by helmet"
+      ],
+      "clothing_style": [
+        "combat uniform",
+        "protective gear"
+      ],
+      "visual_color": [
+        "blue",
+        "black"
+      ],
+      "props_or_accessories": [
+        "rifle",
+        "helmet",
+        "goggles"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 240
+}

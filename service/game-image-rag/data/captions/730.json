@@ -1,0 +1,35 @@
+{
+  "image_caption": "Two armed figures wearing tactical gear with orange-tinted sunglasses are depicted on a split background of gray and orange.",
+  "visual_keywords": [
+    "armed figures",
+    "tactical gear",
+    "orange-tinted sunglasses",
+    "split background",
+    "gray and orange"
+  ],
+  "primary_character": {
+    "character_id": "character_1",
+    "salience_reason": "most visually prominent due to central position and larger size",
+    "visual_cues": {
+      "species_traits": "human",
+      "body_traits": "holding a weapon",
+      "clothing_style": "camouflage gear",
+      "visual_color": "orange sunglasses",
+      "props_or_accessories": "tactical helmet"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "character_2",
+      "salience_reason": "visually distinctive due to contrasting position and lighting",
+      "visual_cues": {
+        "species_traits": "human",
+        "body_traits": "holding a rifle",
+        "clothing_style": "tactical gear",
+        "visual_color": "orange sunglasses",
+        "props_or_accessories": "dark mask"
+      }
+    }
+  ],
+  "appid": 730
+}

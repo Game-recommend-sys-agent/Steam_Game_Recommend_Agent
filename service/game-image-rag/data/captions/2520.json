@@ -1,0 +1,57 @@
+{
+  "image_caption": "A whimsical, dark forest scene with a snail on a tree and a small blue creature sitting nearby against a night sky.",
+  "visual_keywords": [
+    "dark forest",
+    "whimsical",
+    "snail",
+    "tree",
+    "small blue creature",
+    "night sky",
+    "moon",
+    "stars"
+  ],
+  "primary_character": {
+    "character_id": "blue_creature",
+    "salience_reason": "Most visually emphasized creature in the foreground.",
+    "visual_cues": {
+      "species_traits": [
+        "small"
+      ],
+      "face_features": [],
+      "facial_expression": [],
+      "body_traits": [
+        "blue",
+        "sitting"
+      ],
+      "hair_traits": [],
+      "clothing_style": [],
+      "visual_color": [
+        "blue"
+      ],
+      "props_or_accessories": []
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "snail",
+      "salience_reason": "Visually distinctive animal on the tree.",
+      "visual_cues": {
+        "species_traits": [
+          "snail"
+        ],
+        "face_features": [],
+        "facial_expression": [],
+        "body_traits": [
+          "spiral shell"
+        ],
+        "hair_traits": [],
+        "clothing_style": [],
+        "visual_color": [
+          "natural colors"
+        ],
+        "props_or_accessories": []
+      }
+    }
+  ],
+  "appid": 2520
+}

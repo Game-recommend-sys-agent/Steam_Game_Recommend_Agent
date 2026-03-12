@@ -1,0 +1,61 @@
+{
+  "image_caption": "A poster features three distinctive characters, including a red demon, a pumpkin-headed figure, and a hooded character against a backdrop of machinery and neon lights.",
+  "visual_keywords": [
+    "demon",
+    "pumpkin head",
+    "hooded figure",
+    "red skin",
+    "neon lights",
+    "machinery",
+    "crossed arms",
+    "glowing eyes",
+    "horns",
+    "green attire",
+    "dark cloak"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "centrally positioned and most visually emphasized",
+    "visual_cues": {
+      "species_traits": "demon",
+      "face_features": "horns, red skin",
+      "facial_expression": "neutral",
+      "body_traits": "crossed arms",
+      "hair_traits": null,
+      "clothing_style": "dark and blue attire",
+      "visual_color": "red",
+      "props_or_accessories": "none"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "distinctive pumpkin head",
+      "visual_cues": {
+        "species_traits": "pumpkin head",
+        "face_features": "glowing eyes, carved mouth",
+        "facial_expression": "neutral",
+        "body_traits": null,
+        "hair_traits": null,
+        "clothing_style": "green attire",
+        "visual_color": "orange, green",
+        "props_or_accessories": "none"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "cloaked and shadowy appearance",
+      "visual_cues": {
+        "species_traits": "unknown, shadowy figure",
+        "face_features": "glowing eyes",
+        "facial_expression": "neutral",
+        "body_traits": null,
+        "hair_traits": null,
+        "clothing_style": "dark hooded cloak",
+        "visual_color": "black",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 2545
+}

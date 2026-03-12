@@ -1,0 +1,36 @@
+{
+  "image_caption": "A futuristic soldier stands to the right with a cityscape below a starry sky in the background.",
+  "visual_keywords": [
+    "futuristic",
+    "soldier",
+    "armor",
+    "helmet",
+    "cityscape",
+    "starry sky",
+    "buildings",
+    "blue tones",
+    "technological"
+  ],
+  "primary_character": {
+    "character_id": "soldier",
+    "salience_reason": "most visually emphasized and occupies the right side of the poster",
+    "visual_cues": {
+      "species_traits": [],
+      "face_features": [],
+      "facial_expression": [],
+      "body_traits": [],
+      "hair_traits": [],
+      "clothing_style": [],
+      "visual_color": [
+        "blue",
+        "silver"
+      ],
+      "props_or_accessories": [
+        "helmet",
+        "armor"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 1900
+}

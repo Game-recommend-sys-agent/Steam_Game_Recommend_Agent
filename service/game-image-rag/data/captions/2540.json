@@ -1,0 +1,58 @@
+{
+  "image_caption": "Three armored figures stand against a backdrop of a mushroom cloud explosion.",
+  "visual_keywords": [
+    "armored",
+    "mushroom cloud",
+    "explosion",
+    "helmets",
+    "metallic",
+    "dark colors",
+    "cityscape",
+    "futuristic",
+    "military",
+    "uniform",
+    "shielded"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "central position and prominence in image",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "helmet obscures face",
+      "body_traits": "robust armor",
+      "hair_traits": "none visible",
+      "clothing_style": "military armor",
+      "visual_color": "metallic gray and black",
+      "props_or_accessories": "helmet with C-27 label"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "prominent armor and position on the right",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "helmet obscures face",
+        "body_traits": "heavy armor",
+        "hair_traits": "none visible",
+        "clothing_style": "military armor",
+        "visual_color": "metallic gray and black",
+        "props_or_accessories": "helmet with C-17 label"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "notable stance and armor on the left",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "helmet obscures face",
+        "body_traits": "reflective armor",
+        "hair_traits": "none visible",
+        "clothing_style": "military armor",
+        "visual_color": "metallic gray and black",
+        "props_or_accessories": "helmet with C-27 label"
+      }
+    }
+  ],
+  "appid": 2540
+}

@@ -1,0 +1,46 @@
+{
+  "image_caption": "A space-themed poster featuring a large spacecraft near a planet with a bright sun and a smaller ship in the distance.",
+  "visual_keywords": [
+    "spacecraft",
+    "planet",
+    "bright sun",
+    "space",
+    "galaxy",
+    "small ship",
+    "red accents",
+    "metallic surface",
+    "star field",
+    "black hole"
+  ],
+  "primary_character": {
+    "character_id": "spacecraft_1",
+    "salience_reason": "most visually prominent in the foreground",
+    "visual_cues": {
+      "species_traits": "none",
+      "face_features": "none",
+      "facial_expression": "none",
+      "body_traits": "large, rectangular shape",
+      "hair_traits": "none",
+      "clothing_style": "none",
+      "visual_color": "gray with red accents",
+      "props_or_accessories": "none"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "small_ship",
+      "salience_reason": "distinctive presence, smaller size contrasted with primary ship",
+      "visual_cues": {
+        "species_traits": "none",
+        "face_features": "none",
+        "facial_expression": "none",
+        "body_traits": "small, circular shape",
+        "hair_traits": "none",
+        "clothing_style": "none",
+        "visual_color": "dark gray",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 1690
+}

@@ -1,0 +1,46 @@
+{
+  "image_caption": "A large red cross hovers over a background of abstract trees and digital figures.",
+  "visual_keywords": [
+    "red cross",
+    "abstract trees",
+    "digital figures",
+    "glowing background",
+    "silhouette",
+    "geometric shapes",
+    "lines",
+    "grid pattern",
+    "bright colors",
+    "contrast"
+  ],
+  "primary_character": {
+    "character_id": "digital figures",
+    "salience_reason": "Present across the bottom of the image amidst abstract scenery.",
+    "visual_cues": {
+      "species_traits": "digital",
+      "face_features": "none",
+      "facial_expression": "none",
+      "body_traits": "silhouette",
+      "hair_traits": "none",
+      "clothing_style": "none",
+      "visual_color": "dark",
+      "props_or_accessories": "none"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "red cross",
+      "salience_reason": "Dominant element in the top center.",
+      "visual_cues": {
+        "species_traits": "symbol",
+        "face_features": "none",
+        "facial_expression": "none",
+        "body_traits": "cross shape",
+        "hair_traits": "none",
+        "clothing_style": "none",
+        "visual_color": "red",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 1530
+}

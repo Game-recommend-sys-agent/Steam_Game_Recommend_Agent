@@ -1,0 +1,30 @@
+{
+  "image_caption": "A futuristic video game poster with a female character in the foreground.",
+  "visual_keywords": [
+    "futuristic",
+    "female character",
+    "orange hair",
+    "sunglasses",
+    "sci-fi suit",
+    "blue background",
+    "emblem on chest",
+    "gloves",
+    "confident stance"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "wearing sunglasses",
+      "facial_expression": "neutral",
+      "body_traits": "visible upper body",
+      "hair_traits": "orange hair",
+      "clothing_style": "sci-fi suit",
+      "visual_color": "black and silver",
+      "props_or_accessories": "sunglasses"
+    }
+  },
+  "salient_characters": [],
+  "appid": 1300
+}

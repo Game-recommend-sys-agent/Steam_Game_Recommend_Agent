@@ -1,0 +1,36 @@
+{
+  "image_caption": "A man in brown armor and a woman with blonde hair stand in front of a fiery explosion.",
+  "visual_keywords": [
+    "man",
+    "brown armor",
+    "blonde hair",
+    "woman",
+    "explosion"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "eye patch",
+      "body_traits": "muscular",
+      "clothing_style": "armor",
+      "visual_color": "brown",
+      "props_or_accessories": "none"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "2",
+      "salience_reason": "visually distinctive",
+      "visual_cues": {
+        "species_traits": "human",
+        "hair_traits": "blonde, short",
+        "clothing_style": "jumpsuit",
+        "visual_color": "white, blue",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 2550
+}

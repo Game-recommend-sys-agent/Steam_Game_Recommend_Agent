@@ -1,0 +1,58 @@
+{
+  "image_caption": "A group of three soldiers in military attire advance with determined expressions, set against a sky with aircraft silhouettes.",
+  "visual_keywords": [
+    "soldiers",
+    "military attire",
+    "helmets",
+    "rifles",
+    "aircraft",
+    "determined expressions",
+    "olive green",
+    "sky background"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually centered and prominent",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "angular face",
+      "facial_expression": "determined",
+      "body_traits": "holding rifle",
+      "hair_traits": "none visible",
+      "clothing_style": "olive military uniform",
+      "visual_color": "olive green and brown",
+      "props_or_accessories": "helmet, rifle"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "visually distinct on the left side",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "round face",
+        "facial_expression": "serious",
+        "body_traits": "holding rifle",
+        "hair_traits": "none visible",
+        "clothing_style": "olive military uniform",
+        "visual_color": "olive green",
+        "props_or_accessories": "helmet, rifle"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "visually distinct on the right side",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "narrow face",
+        "facial_expression": "intent",
+        "body_traits": "holding rifle",
+        "hair_traits": "none visible",
+        "clothing_style": "olive military uniform",
+        "visual_color": "olive green",
+        "props_or_accessories": "helmet, rifle"
+      }
+    }
+  ],
+  "appid": 30
+}

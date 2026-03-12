@@ -1,0 +1,28 @@
+{
+  "image_caption": "A soldier wearing a gas mask and helmet is in front of a background featuring a large lambda symbol.",
+  "visual_keywords": [
+    "soldier",
+    "gas mask",
+    "helmet",
+    "military uniform",
+    "green background",
+    "lambda symbol",
+    "gloves",
+    "goggles",
+    "metal texture"
+  ],
+  "primary_character": {
+    "character_id": "primary_character",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "face_features": "gas mask, goggles",
+      "body_traits": "military uniform",
+      "hair_traits": "helmet",
+      "clothing_style": "tactical gear",
+      "visual_color": "green",
+      "props_or_accessories": "gas mask, helmet"
+    }
+  },
+  "salient_characters": [],
+  "appid": 50
+}

@@ -1,0 +1,24 @@
+{
+  "image_caption": "A hand with outstretched fingers is prominently displayed against a green background, alongside the title 'Left 4 Dead' in bold white letters, with a red handprint forming the number 4.",
+  "visual_keywords": [
+    "outstretched fingers",
+    "green background",
+    "title text",
+    "bold white letters",
+    "red handprint",
+    "visible veins",
+    "illuminated hand",
+    "dark gradient"
+  ],
+  "primary_character": {
+    "character_id": "hand",
+    "salience_reason": "most visually emphasized element",
+    "visual_cues": {
+      "species_traits": "humanoid",
+      "body_traits": "outstretched fingers, visible veins",
+      "visual_color": "pale skin tone, green shading"
+    }
+  },
+  "salient_characters": [],
+  "appid": 500
+}

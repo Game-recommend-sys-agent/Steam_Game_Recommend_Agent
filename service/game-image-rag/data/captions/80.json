@@ -1,0 +1,43 @@
+{
+  "image_caption": "The poster features two masked individuals holding weapons against a yellow background.",
+  "visual_keywords": [
+    "masked individuals",
+    "weapons",
+    "yellow background",
+    "combat gear",
+    "black masks",
+    "helmets",
+    "dark clothing"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most prominently displayed with helmet and visible face gear",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "partially obscured by mask",
+      "facial_expression": "not visible",
+      "body_traits": "holding weapon",
+      "hair_traits": "helmet-covered",
+      "clothing_style": "dark combat gear",
+      "visual_color": "black, brown",
+      "props_or_accessories": "helmet, mask"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "distinct second position and similar gear",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "partially obscured by mask",
+        "facial_expression": "not visible",
+        "body_traits": "holding weapon",
+        "hair_traits": "helmet-covered",
+        "clothing_style": "dark combat gear",
+        "visual_color": "black",
+        "props_or_accessories": "mask"
+      }
+    }
+  ],
+  "appid": 80
+}

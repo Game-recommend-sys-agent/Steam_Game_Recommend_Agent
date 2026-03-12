@@ -1,0 +1,47 @@
+{
+  "image_caption": "A female figure holding a pistol in a dynamic pose against an orange background.",
+  "visual_keywords": [
+    "female",
+    "pistol",
+    "dynamic pose",
+    "orange background",
+    "short hair",
+    "jacket",
+    "gloves",
+    "focused expression",
+    "lighting contrast"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "central and prominent figure",
+    "visual_cues": {
+      "species_traits": [
+        "human"
+      ],
+      "face_features": [
+        "sharp features"
+      ],
+      "facial_expression": [
+        "focused"
+      ],
+      "body_traits": [
+        "athletic build"
+      ],
+      "hair_traits": [
+        "short brown hair"
+      ],
+      "clothing_style": [
+        "casual jacket"
+      ],
+      "visual_color": [
+        "orange highlight"
+      ],
+      "props_or_accessories": [
+        "pistol",
+        "gloves"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 380
+}

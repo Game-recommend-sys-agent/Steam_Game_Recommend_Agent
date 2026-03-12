@@ -1,0 +1,62 @@
+{
+  "image_caption": "A poster featuring two humans in a misty forest setting with a large mechanical creature looming in the background.",
+  "visual_keywords": [
+    "forest",
+    "mechanical creature",
+    "glasses",
+    "hoodie",
+    "headband",
+    "mist",
+    "close-up",
+    "neutral expression",
+    "mechanical parts",
+    "glow",
+    "fog",
+    "detailed face"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "Most visually close-up and detailed face",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "well-defined",
+      "facial_expression": "neutral",
+      "body_traits": "close-up shot",
+      "hair_traits": "short",
+      "clothing_style": "glasses",
+      "visual_color": "dominant skin tone",
+      "props_or_accessories": "glasses"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "Distinct face and clothing",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "sharp details",
+        "facial_expression": "neutral",
+        "body_traits": "partial view",
+        "hair_traits": "dark, tied with headband",
+        "clothing_style": "white hoodie",
+        "visual_color": "contrast with background",
+        "props_or_accessories": "headband"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "Large size and unique mechanical appearance",
+      "visual_cues": {
+        "species_traits": "mechanical creature",
+        "face_features": "mechanical eyes",
+        "facial_expression": "none",
+        "body_traits": "large with articulated limbs",
+        "hair_traits": "none",
+        "clothing_style": "none",
+        "visual_color": "metallic",
+        "props_or_accessories": "mechanical limbs"
+      }
+    }
+  ],
+  "appid": 420
+}

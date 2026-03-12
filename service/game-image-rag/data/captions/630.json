@@ -1,0 +1,42 @@
+{
+  "image_caption": "The poster features a blue-toned, high-tech mechanical helmet with organic tentacles.",
+  "visual_keywords": [
+    "mechanical",
+    "tentacles",
+    "helmet",
+    "blue",
+    "high-tech",
+    "organic",
+    "dark",
+    "glowing",
+    "futuristic"
+  ],
+  "primary_character": {
+    "character_id": "mechanical_helmet",
+    "salience_reason": "most visually emphasized element in the center",
+    "visual_cues": {
+      "species_traits": [
+        "mechanical",
+        "organic"
+      ],
+      "face_features": [],
+      "facial_expression": [],
+      "body_traits": [
+        "rounded",
+        "attached with tentacles"
+      ],
+      "hair_traits": [],
+      "clothing_style": [],
+      "visual_color": [
+        "blue",
+        "glowing"
+      ],
+      "props_or_accessories": [
+        "helmet",
+        "tentacles"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 630
+}

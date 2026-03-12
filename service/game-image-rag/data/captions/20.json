@@ -1,0 +1,34 @@
+{
+  "image_caption": "A character in dark attire with goggles and a helmet aims a large gun, emitting a bright flash, against a textured wall with bullet holes.",
+  "visual_keywords": [
+    "dark attire",
+    "goggles",
+    "helmet",
+    "large gun",
+    "bright flash",
+    "textured wall",
+    "bullet holes",
+    "military style",
+    "action pose",
+    "intensity",
+    "orange light",
+    "leather clothing",
+    "metallic elements"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized and central position",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "goggles",
+      "facial_expression": "focused",
+      "body_traits": "muscular build",
+      "hair_traits": "helmet-covered",
+      "clothing_style": "dark military attire",
+      "visual_color": "dark colors with orange glow",
+      "props_or_accessories": "large gun"
+    }
+  },
+  "salient_characters": [],
+  "appid": 20
+}

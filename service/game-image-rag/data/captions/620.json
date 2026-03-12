@@ -1,0 +1,33 @@
+{
+  "image_caption": "A futuristic robotic character is leaping through two portals, one blue and one orange, against a sci-fi backdrop.",
+  "visual_keywords": [
+    "robotic",
+    "portals",
+    "futuristic",
+    "jumping",
+    "blue portal",
+    "orange portal",
+    "metallic",
+    "scifi",
+    "mechanical limbs",
+    "circular design"
+  ],
+  "primary_character": {
+    "character_id": "robotic_character",
+    "salience_reason": "centrally positioned and in motion",
+    "visual_cues": {
+      "species_traits": [
+        "robotic"
+      ],
+      "body_traits": [
+        "mechanical limbs",
+        "circular design"
+      ],
+      "props_or_accessories": [
+        "metallic body"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 620
+}

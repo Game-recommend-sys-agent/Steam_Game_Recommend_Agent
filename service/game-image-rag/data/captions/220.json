@@ -1,0 +1,45 @@
+{
+  "image_caption": "A poster featuring a man with glasses and a woman with a headband, against a foggy background with 'Half-Life 2' text.",
+  "visual_keywords": [
+    "glasses",
+    "headband",
+    "foggy background",
+    "armor",
+    "short hair",
+    "jacket",
+    "suit",
+    "high collar",
+    "smirk"
+  ],
+  "primary_character": {
+    "character_id": "1",
+    "salience_reason": "positioned on the left with significant visual emphasis",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "glasses, beard",
+      "facial_expression": "serious",
+      "body_traits": "wearing armor",
+      "hair_traits": "short hair",
+      "clothing_style": "futuristic suit",
+      "visual_color": "grey, blue, orange",
+      "props_or_accessories": "glasses"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "2",
+      "salience_reason": "positioned on the right with distinct attire",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "headband",
+        "facial_expression": "smirk",
+        "body_traits": "wearing a jacket",
+        "hair_traits": "tied back hair",
+        "clothing_style": "casual jacket",
+        "visual_color": "brown, white",
+        "props_or_accessories": "headband"
+      }
+    }
+  ],
+  "appid": 220
+}

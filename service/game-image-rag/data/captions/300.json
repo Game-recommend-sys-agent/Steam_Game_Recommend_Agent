@@ -1,0 +1,42 @@
+{
+  "image_caption": "Two soldiers in military uniforms stand against a stylized background with the title 'Day of Defeat Source'.",
+  "visual_keywords": [
+    "soldiers",
+    "military uniforms",
+    "helmets",
+    "cigarette",
+    "rifle",
+    "emblems",
+    "red background",
+    "text logo"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "most visually emphasized and in the foreground",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "visible mouth with cigarette",
+      "body_traits": "wearing military gear",
+      "hair_traits": "wearing a helmet",
+      "clothing_style": "military uniform",
+      "visual_color": "brown clothing",
+      "props_or_accessories": "holding cigarette"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "visible and distinctive on the right",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "partially covered by helmet",
+        "body_traits": "wearing military gear",
+        "hair_traits": "wearing a helmet",
+        "clothing_style": "dark military uniform",
+        "visual_color": "dark gray clothing",
+        "props_or_accessories": "holding a rifle"
+      }
+    }
+  ],
+  "appid": 300
+}

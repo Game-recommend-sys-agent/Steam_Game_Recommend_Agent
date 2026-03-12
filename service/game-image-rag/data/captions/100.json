@@ -1,0 +1,47 @@
+{
+  "image_caption": "Two figures in tactical gear with weapons against a yellow backdrop.",
+  "visual_keywords": [
+    "tactical gear",
+    "weapons",
+    "yellow backdrop",
+    "helmet",
+    "goggles",
+    "balaclava",
+    "side profile",
+    "firearms",
+    "military attire",
+    "action pose",
+    "dark clothing"
+  ],
+  "primary_character": {
+    "character_id": "character_1",
+    "salience_reason": "most visually emphasized figure on the left",
+    "visual_cues": {
+      "species_traits": "human",
+      "face_features": "partially covered face",
+      "facial_expression": "serious",
+      "body_traits": "upright stance",
+      "hair_traits": null,
+      "clothing_style": "tactical gear, helmet",
+      "visual_color": "dark",
+      "props_or_accessories": "goggles, firearm"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "character_2",
+      "salience_reason": "distinctive side profile on the right",
+      "visual_cues": {
+        "species_traits": "human",
+        "face_features": "covered face",
+        "facial_expression": "neutral",
+        "body_traits": "upright stance",
+        "hair_traits": null,
+        "clothing_style": "tactical gear, balaclava",
+        "visual_color": "dark",
+        "props_or_accessories": "firearm"
+      }
+    }
+  ],
+  "appid": 100
+}

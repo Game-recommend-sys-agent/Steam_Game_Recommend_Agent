@@ -1,0 +1,25 @@
+{
+  "image_caption": "A hand reaching upwards with a grungy background and the text 'Left 4 Dead 2'.",
+  "visual_keywords": [
+    "hand",
+    "fingers",
+    "grungy background",
+    "yellow",
+    "black",
+    "red",
+    "white text",
+    "number '4'",
+    "splattered effect"
+  ],
+  "primary_character": {
+    "character_id": "hand",
+    "salience_reason": "most visually emphasized",
+    "visual_cues": {
+      "species_traits": "human",
+      "body_traits": "reaching hand",
+      "visual_color": "pale yellow"
+    }
+  },
+  "salient_characters": [],
+  "appid": 550
+}

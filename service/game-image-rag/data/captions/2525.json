@@ -1,0 +1,57 @@
+{
+  "image_caption": "Five round, colorful characters with large eyes are positioned on a curved surface with a gray background.",
+  "visual_keywords": [
+    "round shape",
+    "colorful characters",
+    "large eyes",
+    "curved surface",
+    "gray background",
+    "text",
+    "multiple characters"
+  ],
+  "primary_character": {
+    "character_id": 1,
+    "salience_reason": "central position and vibrant colors",
+    "visual_cues": {
+      "species_traits": "round",
+      "face_features": "large eyes",
+      "facial_expression": "neutral",
+      "body_traits": "round shape",
+      "hair_traits": "scaly pattern",
+      "clothing_style": "none",
+      "visual_color": "red and green",
+      "props_or_accessories": "none"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": 2,
+      "salience_reason": "distinctive blue scaly pattern",
+      "visual_cues": {
+        "species_traits": "round",
+        "face_features": "large eyes",
+        "facial_expression": "wide-eyed",
+        "body_traits": "round shape",
+        "hair_traits": "blue scaly pattern",
+        "clothing_style": "none",
+        "visual_color": "blue and green",
+        "props_or_accessories": "none"
+      }
+    },
+    {
+      "character_id": 3,
+      "salience_reason": "distinctive contrast with light colors",
+      "visual_cues": {
+        "species_traits": "round",
+        "face_features": "large eyes",
+        "facial_expression": "wide-eyed",
+        "body_traits": "round shape",
+        "hair_traits": "light brown pattern",
+        "clothing_style": "none",
+        "visual_color": "beige and green",
+        "props_or_accessories": "none"
+      }
+    }
+  ],
+  "appid": 2525
+}

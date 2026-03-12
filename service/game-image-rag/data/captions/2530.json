@@ -1,0 +1,36 @@
+{
+  "image_caption": "A tree-like character sits on a large branch against a stylized sky background with clouds, accompanied by the title 'Gumboy Crazy Adventures'.",
+  "visual_keywords": [
+    "tree-like character",
+    "large branch",
+    "stylized sky",
+    "clouds",
+    "Gumboy Crazy Adventures",
+    "long limbs",
+    "twisting branches",
+    "wood texture",
+    "sunset colors"
+  ],
+  "primary_character": {
+    "character_id": "tree-like_character",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": [
+        "tree-like"
+      ],
+      "body_traits": [
+        "elongated limbs",
+        "sitting pose"
+      ],
+      "hair_traits": [
+        "branches as hair"
+      ],
+      "visual_color": [
+        "brown",
+        "greenish tint"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 2530
+}

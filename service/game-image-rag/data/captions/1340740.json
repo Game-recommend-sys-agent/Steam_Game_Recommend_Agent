@@ -1,0 +1,39 @@
+{
+  "image_caption": "The poster features the title 'Kawaii Memory' in large, colorful text next to a bubble containing an anime-style girl's face with brown hair and teal eyes.",
+  "visual_keywords": [
+    "anime-style",
+    "bubble",
+    "brown hair",
+    "teal eyes",
+    "pink background",
+    "purple gradient",
+    "bold text"
+  ],
+  "primary_character": {
+    "character_id": "bubble_face_girl",
+    "salience_reason": "The only character depicted, prominently featured in a bubble.",
+    "visual_cues": {
+      "species_traits": [],
+      "face_features": [
+        "round face",
+        "teal eyes"
+      ],
+      "facial_expression": [],
+      "body_traits": [],
+      "hair_traits": [
+        "brown hair",
+        "straight hair"
+      ],
+      "clothing_style": [],
+      "visual_color": [
+        "brown",
+        "teal"
+      ],
+      "props_or_accessories": [
+        "bubble"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 1340740
+}

@@ -1,0 +1,46 @@
+{
+  "image_caption": "A figure with black hair holding a large sword stands confidently against a dark background with the word 'HADES' above.",
+  "visual_keywords": [
+    "black hair",
+    "large sword",
+    "dark background",
+    "HADES text",
+    "confident stance",
+    "red accents",
+    "sharp eyes",
+    "muscular build",
+    "gold and red armor",
+    "glowing elements"
+  ],
+  "primary_character": {
+    "character_id": "character_1",
+    "salience_reason": "most visually emphasized overall",
+    "visual_cues": {
+      "species_traits": [],
+      "face_features": [
+        "sharp eyes"
+      ],
+      "facial_expression": [
+        "confident"
+      ],
+      "body_traits": [
+        "muscular build"
+      ],
+      "hair_traits": [
+        "black hair"
+      ],
+      "clothing_style": [
+        "gold and red armor"
+      ],
+      "visual_color": [
+        "red accents"
+      ],
+      "props_or_accessories": [
+        "large sword",
+        "glowing elements"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 1145360
+}

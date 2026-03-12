@@ -1,0 +1,28 @@
+{
+  "image_caption": "A robotic figure is seen jumping between two glowing portals, one blue and one orange, on a futuristic backdrop.",
+  "visual_keywords": [
+    "robotic",
+    "futuristic",
+    "jumping",
+    "glowing portals",
+    "blue",
+    "orange",
+    "metallic limbs",
+    "circular eye",
+    "mechanical",
+    "high-tech environment"
+  ],
+  "primary_character": {
+    "character_id": "robotic_figure",
+    "salience_reason": "Centrally positioned and largest visual element.",
+    "visual_cues": {
+      "species_traits": "robotic",
+      "body_traits": "metallic limbs",
+      "face_features": "circular eye",
+      "visual_color": "white and grey",
+      "props_or_accessories": "futuristic environment"
+    }
+  },
+  "salient_characters": [],
+  "appid": 659
+}

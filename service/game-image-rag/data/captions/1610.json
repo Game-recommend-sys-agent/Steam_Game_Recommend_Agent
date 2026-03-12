@@ -1,0 +1,43 @@
+{
+  "image_caption": "A large, detailed depiction of a planet in space, with smaller planets and a spacecraft nearby.",
+  "visual_keywords": [
+    "planet",
+    "space",
+    "spacecraft",
+    "stars",
+    "sun",
+    "galaxy",
+    "futuristic",
+    "orbital",
+    "celestial",
+    "sci-fi"
+  ],
+  "primary_character": {
+    "character_id": "spacecraft",
+    "salience_reason": "most visually emphasized element besides the central planet",
+    "visual_cues": {
+      "species_traits": "non-organic",
+      "body_traits": "circular structure with attachments",
+      "props_or_accessories": "emits blue beams"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "large_planet",
+      "salience_reason": "central and most prominent celestial body",
+      "visual_cues": {
+        "visual_color": "blue and brown with white swirls",
+        "body_traits": "spherical, Earth-like appearance"
+      }
+    },
+    {
+      "character_id": "adjacent_moon",
+      "salience_reason": "distinctive smaller celestial body near large planet",
+      "visual_cues": {
+        "visual_color": "dark surface",
+        "body_traits": "spherical, cratered surface"
+      }
+    }
+  ],
+  "appid": 1610
+}

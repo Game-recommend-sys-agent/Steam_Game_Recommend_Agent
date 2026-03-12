@@ -1,0 +1,49 @@
+{
+  "image_caption": "A futuristic, dark-themed poster featuring armored characters against a shadowy backdrop.",
+  "visual_keywords": [
+    "futuristic",
+    "dark-theme",
+    "armored",
+    "shadowy backdrop",
+    "fierce"
+  ],
+  "primary_character": {
+    "character_id": "center_armored_character",
+    "salience_reason": "most centrally placed and visible",
+    "visual_cues": {
+      "species_traits": "humanoid",
+      "face_features": "helmet",
+      "body_traits": "muscular, armored",
+      "clothing_style": "futuristic armor",
+      "visual_color": "dark, metallic",
+      "props_or_accessories": "large weapon"
+    }
+  },
+  "salient_characters": [
+    {
+      "character_id": "left_armored_character",
+      "salience_reason": "visually distinctive due to armor and weapon",
+      "visual_cues": {
+        "species_traits": "humanoid",
+        "face_features": "helmet",
+        "body_traits": "armored",
+        "clothing_style": "futuristic armor",
+        "visual_color": "dark, metallic",
+        "props_or_accessories": "large weapon"
+      }
+    },
+    {
+      "character_id": "right_armored_character",
+      "salience_reason": "visually distinctive due to armor and weapon",
+      "visual_cues": {
+        "species_traits": "humanoid",
+        "face_features": "helmet",
+        "body_traits": "armored",
+        "clothing_style": "futuristic armor",
+        "visual_color": "dark, metallic",
+        "props_or_accessories": "large weapon"
+      }
+    }
+  ],
+  "appid": 2200
+}

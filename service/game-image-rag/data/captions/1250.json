@@ -1,0 +1,46 @@
+{
+  "image_caption": "The poster shows a menacing figure holding a glowing weapon, standing behind bold red text.",
+  "visual_keywords": [
+    "menacing figure",
+    "glowing weapon",
+    "bold red text",
+    "zombie-like",
+    "dark background",
+    "mechanical arm",
+    "blood",
+    "metal plating",
+    "red eyes",
+    "bald head"
+  ],
+  "primary_character": {
+    "character_id": "character_1",
+    "salience_reason": "most visually emphasized overall, holding weapon",
+    "visual_cues": {
+      "species_traits": [
+        "zombie-like"
+      ],
+      "face_features": [
+        "bald head",
+        "red eyes"
+      ],
+      "facial_expression": [],
+      "body_traits": [
+        "mechanical arm",
+        "blood"
+      ],
+      "hair_traits": [],
+      "clothing_style": [
+        "metal plating"
+      ],
+      "visual_color": [
+        "red",
+        "yellow"
+      ],
+      "props_or_accessories": [
+        "glowing weapon"
+      ]
+    }
+  },
+  "salient_characters": [],
+  "appid": 1250
+}
