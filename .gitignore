@@ -32,19 +32,20 @@ env/
 *.swp
 *.swo
 
-# Data (raw/processed는 보통 커밋 제외, 필요 시 팀 정책으로 .gitkeep만 유지)
-data/raw/*.json
-data/raw/*.csv
-data/processed/*.json
-data/processed/*.csv
-data/interim/*.json
-data/interim/*.csv
+# Data (원칙: 실데이터는 커밋 제외, 폴더 구조 유지를 위해 .gitkeep만 추적)
+# NOTE: 기존 패턴(data/raw/*.json 등)은 하위 디렉토리 파일을 무시하지 못하므로 재귀 패턴으로 통일
+data/raw/**
+data/interim/**
+data/processed/**
+!data/**/.gitkeep
 *.db
 *.sqlite
 
 # Secrets
 .env
 .env.local
+.env.*
+!.env.example
 *.pem
 
 # OS
