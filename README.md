@@ -1,7 +1,9 @@
 # 게임 추천 시스템 (Game Recommendation)
 
-Steam 스토어/API 기반 게임 추천 시스템 프로젝트입니다. 
-<img width="182" height="142" alt="steam rec" src="https://github.com/user-attachments/assets/1334714b-2693-4e9e-b214-69e63cf8441f" />
+Steam 스토어/API 기반 게임 추천 시스템 프로젝트입니다.  
+<br>
+<img width="182" height="142" alt="steam rec" src="https://github.com/user-attachments/assets/1334714b-2693-4e9e-b214-69e63cf8441f" />  
+<br>
 전략 문서(전략.pdf)와 [진행 계획·워크플로우](docs/workflow.md)에 따라 Phase 0 → 6 순으로 진행합니다.
 
 ## 추천 아키텍처: Retrieval-first (Top-K), LLM은 후보 내에서만
